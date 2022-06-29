@@ -28,7 +28,7 @@ http
       });
     }else{
         res.write("error")
-  }
+  } 
 })
 
   .listen(9000, () => console.log("Start working"));
